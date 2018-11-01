@@ -3,7 +3,7 @@ require 'watir'
 
 get '/test' do
   # chromedriver_path = File.join(File.absolute_path('../..', File.dirname(__FILE__)),"chromedriver")
-  Selenium::WebDriver::Chrome.driver_path = "./chromedriver"
+  Selenium::WebDriver::Chrome.driver_path = "./chromedriver_linux"
 
 
   browser = Watir::Browser.new
